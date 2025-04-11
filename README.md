@@ -1,8 +1,3 @@
-Here is your fully updated **README.md** with Llama 3 authentication info properly added under the right section, keeping all your existing content intact:
-
----
-
-````md
 # My LLM - Run Local Language Models on CPU
 
 A collection of scripts to download and run various open-source language models locally on CPU.
@@ -40,6 +35,7 @@ A collection of scripts to download and run various open-source language models 
 git clone https://github.com/your-username/my-llm.git
 cd my-llm
 ```
+
 ````
 
 2. Create a virtual environment:
@@ -112,7 +108,7 @@ python scripts/run_llama_gguf.py
 >
 > The Llama 3 8B GGUF model hosted at Hugging Face requires **user authentication** to download.
 >
-> Make sure you have a Hugging Face account and have accepted the model license terms here:  
+> Make sure you have a Hugging Face account and have accepted the model license terms here:
 > [https://huggingface.co/QuantFactory/Meta-Llama-3-8B-Instruct-GGUF](https://huggingface.co/QuantFactory/Meta-Llama-3-8B-Instruct-GGUF)
 >
 > Then set your Hugging Face token as an environment variable:
@@ -193,3 +189,4 @@ This project is open source and available under the MIT License.
 ## Note
 
 Large language models may sometimes generate incorrect information. Use the outputs responsibly and verify important information from reliable sources.
+````
