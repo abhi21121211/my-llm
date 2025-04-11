@@ -129,6 +129,7 @@ def main():
                 
             # Generate response to the current input only
             # This avoids conversation history issues
+            print("Mistral is generating a response, please wait...")
             response = generate_chat_response(
                 model_path=model_path,
                 prompt=user_input,  # Just use the current input

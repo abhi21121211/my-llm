@@ -1,14 +1,16 @@
-# requirements.txt
-setuptools>=69.0.0         # Required for distutils
-numpy<2.0.0               # Required for PyTorch compatibility
---extra-index-url https://download.pytorch.org/whl/cpu
-torch==2.2.0+cpu          # PyTorch (CPU-only version) for Python 3.12
-transformers==4.37.2      # Hugging Face Transformers
-accelerate==0.26.1        # Required for low_cpu_mem_usage
-huggingface_hub==0.20.3   # For model downloads
-psutil>=5.9.0             # For system resource monitoring
-requests>=2.31.0          # For direct file downloads
-llama-cpp-python==0.2.56   # For running the CodeLlama model
-
-# Optional (for quantization if you have GPU later)
-# bitsandbytes>=0.43.0      # Uncomment if using 8-bit quantization
+# requirements_cpu.txt - Dependencies optimized for CPU-only usage
+transformers>=4.38.0
+tokenizers>=0.15.0
+accelerate>=0.27.0
+llama-cpp-python>=0.2.37
+sentencepiece>=0.1.99
+protobuf>=4.25.1
+scipy>=1.11.3
+numpy>=1.24.0
+tqdm>=4.66.1
+huggingface_hub>=0.19.4
+torch>=2.1.0
+einops>=0.7.0
+psutil>=5.9.6
+colorama>=0.4.6
+requests>=2.31.0
