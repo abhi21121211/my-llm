@@ -67,13 +67,13 @@ python scripts/model_manager.py list
 python scripts/model_manager.py sysinfo
 
 # Download a model (e.g., phi3-mini)
-python scripts/model_manager.py download phi3-cpu
+python scripts/model_manager.py download mistral-gguf
 
 # Run a model (will download if not already installed)
-python scripts/model_manager.py run phi3-cpu
+python scripts/model_manager.py run mistral-gguf
 
 # Remove a model to free up disk space
-python scripts/model_manager.py remove phi3-cpu
+python scripts/model_manager.py remove mistral-gguf
 ```
 
 ## Manual Usage
@@ -88,10 +88,10 @@ python scripts/run_tiny_gpt2.py
 
 ```bash
 # Download the model first (one-time)
-python scripts/download_phi3_cpu.py
+python scripts/download_mistral_gguf.py
 
 # Start a chat session
-python scripts/phi3_cpu.py
+python scripts/mistral_gguf.py
 ```
 
 ### Chat with Llama
