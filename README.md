@@ -32,7 +32,7 @@ A collection of scripts to download and run various open-source language models 
 1. Clone this repository:
 
 ```bash
-git clone https://github.com/your-username/my-llm.git
+git clone https://github.com/abhi21121211/my-llm.git
 cd my-llm
 ```
 
